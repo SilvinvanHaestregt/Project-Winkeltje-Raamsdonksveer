@@ -108,9 +108,7 @@ body {
   background-image: url("../img/woods.png");
   background-repeat: no-repeat;
   background-size: 110%;
-
   overflow-x: hidden;
-  ;
 }
 
 label .menu {
