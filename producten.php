@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +20,7 @@
     <main>
 
     </main>
-    
+
     <footer>
         <?php require_once 'footer.php'; ?>
     </footer>
