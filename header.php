@@ -5,6 +5,7 @@
 <body>
 	<header>
 		<div class="header">
+			<h1>Scouting Raamsdonksveer</h1>
 			<a href="" ><img src="" alt=""></a>
 			<div class="navbar">
 				<a href="index.php">Home</a>
