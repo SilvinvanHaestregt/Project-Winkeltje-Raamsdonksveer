@@ -92,6 +92,9 @@ textarea {
     font-family: 'Raleway', sans-serif;
     
   }
+  #mainh1{
+    top:20px;
+  }
   /* menu */
   *, *:before, *:after 
 { box-sizing: border-box; }
@@ -102,8 +105,12 @@ body {
   color: #e0e4cc;
   font-size: 1.2em;
   line-height: 1.6;
-  background: #fa6900;
+  background-image: url("../img/woods.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+
   overflow-x: hidden;
+  ;
 }
 
 label .menu {

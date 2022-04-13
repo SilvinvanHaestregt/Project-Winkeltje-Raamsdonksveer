@@ -4,6 +4,7 @@
 </head>
 <body>
 	<header>
+		
 		<div class="header">
 		<label>
 		<input type="checkbox">
@@ -16,7 +17,8 @@
   			<li> <a href="status.php">Status</a> </li>
 		</ul>
 		</label>
-		<h1>Scouting Raamsdonksveer</h1>
+		<h1 id="mainh1">Scouting Raamsdonksveer</h1>
+		
 	</header>
 </body>
 </html>
