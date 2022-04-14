@@ -15,7 +15,13 @@
   			<li> <a href="winkelmand.php">Winkelmandje</a> </li>
   			<li> <a href="contact.php">Contact</a> </li>
   			<li> <a href="status.php">Status</a> </li>
-			<li> <a href="login.php">Inloggen</a> </li>
+			<?php
+				if (isset($_SESSION['user_id'])){
+					echo "<li> <a href='logout.php'>Uitloggen</a> </li>";
+				} else {
+					echo "<li> <a href='login.php'>Inloggen</a> </li>";
+				}
+			?>
 		</ul>
 		</label>
 		<h1 id="mainh1">Scouting Raamsdonksveer</h1>
