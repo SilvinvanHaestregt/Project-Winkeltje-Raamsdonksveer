@@ -396,33 +396,3 @@ footer{
   }
 }
 
-/* * */
-*{
-	margin: 0 auto;
-	padding: 0;
-}
-
-/* Wrapper */
-.wrapper{
-	margin: 0 auto;
-	width: 968px;
-	display: flex;
-	justify-content: center;
-}
-
-/* login.php */
-.form{
-  background-color: white;
-	width: 400px;
-	border-radius: 10px;
-	padding: 10px;
-	animation: mymove 5s infinite;
-}
-
-input {
-  width: 50%;
-}
-
-input[type=text]:focus {
-  background-color: lightblue;
-}
