@@ -26,10 +26,6 @@
 		</label>
 		<h1 id="mainh1">Scouting Raamsdonksveer</h1>
 		
-
-		
-
-		
 	</header>
 </body>
 </html>
