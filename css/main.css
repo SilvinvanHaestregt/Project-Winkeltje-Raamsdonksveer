@@ -194,8 +194,8 @@ label ul {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   display:none;
-  -webkit-transition: .25s 0s ease-in-out;
-  transition: .25s 0s ease-in-out;
+  -webkit-transition: 1.5s 1.5s ease-in-out;
+  transition: 1.5s 1.5s ease-in-out;
 }
 
 label a {
