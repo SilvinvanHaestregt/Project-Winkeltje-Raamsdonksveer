@@ -419,10 +419,10 @@ footer{
 	animation: mymove 5s infinite;
 }
 
-.form-group{
-	margin: 10px;
-	padding: 10px;
-	border-radius: 10px;
-	display: flex;
-	justify-content: space-between;
+input {
+  width: 50%;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
 }
