@@ -15,6 +15,7 @@
   			<li> <a href="winkelmand.php">Winkelmandje</a> </li>
   			<li> <a href="contact.php">Contact</a> </li>
   			<li> <a href="status.php">Status</a> </li>
+			<li> <a href="login.php">Inloggen</a> </li>
 		</ul>
 		</label>
 		<h1 id="mainh1">Scouting Raamsdonksveer</h1>
