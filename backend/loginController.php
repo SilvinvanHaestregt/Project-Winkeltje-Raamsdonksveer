@@ -21,10 +21,12 @@ if($user) {
         $_SESSION['user_id'] = $user['id'];
         header("Location: ../index.php");
     } else {
-        echo "Incorrect password";
+        $_SESSION['error'] = 'Combinatie klopt niet';
+        header("Location: ../login.php");
     }
 } else {
-    echo "User not found";
+    $_SESSION['error'] = 'Combinatie klopt niet';
+    header("Location: ../login.php");
 }
 
 ?>
