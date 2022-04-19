@@ -185,7 +185,10 @@ label input:checked + .menu .hamburger:before {
   
 }
 
-label input:checked + .menu + ul{ opacity: 1; display: block;}
+label input:checked + .menu + ul{
+   opacity: 1; 
+   display: block;
+  }
 
 label ul {
   z-index: 200;
