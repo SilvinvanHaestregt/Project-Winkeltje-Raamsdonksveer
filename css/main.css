@@ -217,9 +217,14 @@ h1 {
   text-align: center;
 }
 /* footer */
-footer{
-  position: absolute;
-  bottom: 0px;
+#footer{
+  display: flex;
+  justify-content: center;
+  bottom: auto;
+  margin-top: 49%;
+  background-color:#f38630;
+  
+  
   
 }
 

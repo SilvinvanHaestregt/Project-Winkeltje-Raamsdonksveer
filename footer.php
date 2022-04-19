@@ -4,7 +4,7 @@
 	
 </head>
 <body >
-	<div>
+	<div id="footer">
 	<p>Gemaakt door Pepijn IJnema & Silvin van Haestregt &copy;</p>
 	</div>
 </body>
