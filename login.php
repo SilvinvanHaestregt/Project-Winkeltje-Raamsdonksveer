@@ -40,6 +40,10 @@
                             echo $_SESSION['error'];
                             unset($_SESSION['error']);
                         }
+
+                        if(isset($_GET['msg'])){
+                            echo $_GET["msg"];
+                        }
                     ?>
                     <div class="form-group">
                         <input type="submit" value="Submit">
