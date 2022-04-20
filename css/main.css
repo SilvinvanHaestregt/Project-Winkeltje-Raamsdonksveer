@@ -432,3 +432,21 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 }
+
+/* Order.php */
+
+.table{
+  margin-top: 250px;
+  background-color: white;
+  color: black;
+}
+
+.table th{
+  background-color: #f38630;
+  color: white;
+  padding: 10px;
+}
+
+.table td{
+  padding: 20px;
+}
