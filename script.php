@@ -10,7 +10,8 @@
         function hideForm() {
             var formpoint = document.getElementById('formdisp');
            
-            if (i == 0){ 
+            if (i == 0){
+ 
                 formpoint.style.display = 'none';
                 i++;
             }
