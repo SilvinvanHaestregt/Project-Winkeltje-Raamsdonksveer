@@ -6,20 +6,18 @@
 <body >
     <script>
         i = 0;
+
         function hideForm() {
             var formpoint = document.getElementById('formdisp');
            
-            
-            if (i == 0){
+            if (i == 0){ 
                 formpoint.style.display = 'none';
                 i++;
             }
             else if (i == 1){
                 formpoint.style.display = 'block';
                 i--;
-            } 
-
-
+            }
         }
     </script>
 </body>
