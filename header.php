@@ -20,6 +20,7 @@
   			<li> <a href="status.php">Status</a> </li>
 			<?php
 				if (isset($_SESSION['user_id'])){
+					echo "<li> <a href='order.php'>Orders</a> </li>";
 					echo "<li> <a href='logout.php'>Uitloggen</a> </li>";
 				} else {
 					echo "<li> <a href='login.php'>Inloggen</a> </li>";
