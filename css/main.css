@@ -436,3 +436,45 @@ h1 {
 	padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+.wrapper{
+	margin: 0 auto;
+	width: 968px;
+	display: flex;
+	justify-content: center;
+}
+
+.form{
+  margin-top: 200px;
+	background: orange;
+	width: 400px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.form-group{
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Order.php */
+
+.table{
+  margin-top: 250px;
+  background-color: white;
+  color: black;
+}
+
+.table th{
+  background-color: #f38630;
+  color: white;
+  padding: 10px;
+}
+
+.table td{
+  padding: 20px;
+}
+>>>>>>> 192a8f6b50e571da731cdce037382efd43ea4836
