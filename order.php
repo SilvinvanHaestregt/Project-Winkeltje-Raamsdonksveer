@@ -63,4 +63,5 @@ if(!isset($_SESSION['user_id'])){
         <?php require_once 'footer.php'; ?>
     </footer>
 </body>
+<?php require_once 'script.php'; ?>
 </html>
