@@ -227,10 +227,10 @@ h1 {
 }
 /* footer */
 #footer{
-  display: flex;
-  justify-content: center;
+  position: fixed;
   bottom: 0px;
-  
+  text-align: center;
+  width: 100vw;
   background-color:#f38630;
 
 }
