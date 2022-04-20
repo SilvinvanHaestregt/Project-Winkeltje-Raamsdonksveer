@@ -3,12 +3,14 @@
 <head>
 </head>
 <body>
-	<header>
-		
+	<header>		
 		<div class="header">
 		<label>
-		<input type="checkbox">
-		<span class="menu"> <span class="hamburger"></span> </span>
+		<input onClick="hideForm()" type="checkbox">
+		<span class="menu"> 
+			<div class="barrier"></div>
+			<span class="hamburger"></span> 
+		</span>
 		<ul>
 			
   			<li> <a href="index.php">Home</a> </li>
