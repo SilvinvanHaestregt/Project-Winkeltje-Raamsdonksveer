@@ -181,14 +181,20 @@ label input:checked + .menu .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
-  
-  
+}
+
+
+.barrier{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: none;
 }
 
 label input:checked + .menu + ul{
    opacity: 1; 
    display: block;
-  }
+}
 
 label ul {
   z-index: 200;
@@ -221,14 +227,33 @@ h1 {
 }
 /* footer */
 #footer{
-  display: flex;
-  justify-content: center;
-  bottom: auto;
-  margin-top: 49%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  width: 100vw;
   background-color:#f38630;
-  
-  
-  
+
+}
+.wrapper{
+	margin: 0 auto;
+	width: 968px;
+	display: flex;
+	justify-content: center;
+}
+
+.form{
+  margin-top: 200px;
+	background: orange;
+	width: 400px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.form-group{
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
 }
 
  
@@ -411,6 +436,7 @@ h1 {
 	padding: 0;
 }
 
+
 .wrapper{
 	margin: 0 auto;
 	width: 968px;
@@ -450,3 +476,4 @@ h1 {
 .table td{
   padding: 20px;
 }
+

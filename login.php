@@ -17,7 +17,7 @@
     </header>
     <main>
         <div class="wrapper">
-            <div class="form">
+            <div id="formdisp" class="form">
                 <form action="backend/loginController.php" method="post">
                     <div class="form-group">
                         <label for="username">Gebruikersnaam:</label>
@@ -55,5 +55,6 @@
     <footer>
         <?php require_once 'footer.php'; ?>
     </footer>
+    <?php require_once 'script.php'; ?>
 </body>
 </html>

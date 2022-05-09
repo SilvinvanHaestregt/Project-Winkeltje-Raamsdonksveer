@@ -47,4 +47,5 @@ session_start();
     <footer>
         <?php require_once 'footer.php'; ?>
     </footer>
+    <?php require_once 'script.php'; ?>
 </body>
