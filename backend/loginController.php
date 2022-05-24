@@ -16,17 +16,21 @@ $statement = $conn->prepare($query);
 $statement->execute([":username" => $username, ":name" => $name, ":email" => $email]);
 $user = $statement->fetch(PDO::FETCH_ASSOC);
 
-if($user) {
-    if($user['password'] == $password && $user['username'] == $username && $user['name'] == $name && $user['email'] == $email) {
-        $_SESSION['user_id'] = $user['id'];
-        header("Location: ../index.php");
+function checkLogin($user, $username, $password, $name, $email) {
+    if($user) {
+        if($user['password'] == $password && $user['username'] == $username && $user['name'] == $name && $user['email'] == $email) {
+            $_SESSION['user_id'] = $user['id'];
+            header("Location: ../index.php");
+        } else {
+            $_SESSION['error'] = 'Combinatie klopt niet';
+            header("Location: ../login.php");
+        }
     } else {
         $_SESSION['error'] = 'Combinatie klopt niet';
         header("Location: ../login.php");
     }
-} else {
-    $_SESSION['error'] = 'Combinatie klopt niet';
-    header("Location: ../login.php");
 }
+
+checkLogin($user, $username, $password, $name, $email);
 
 ?>
